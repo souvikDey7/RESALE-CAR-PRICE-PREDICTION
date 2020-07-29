@@ -36,7 +36,6 @@ from sklearn.metrics import r2_score
 print(r2_score(y_test,y_p))
 print(np.sqrt(metrics.mean_squared_error(y_test,y_p)))
 
-"""
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 fig=plt.figure()
@@ -53,4 +52,3 @@ ax.scatter(x[:,8],y,z,color="olive",marker="o")
 ax.scatter(x[:,9],y,z,color="lime",marker="o")
 ax.scatter(x[:,10],y,z,color="purple",marker="o")
   
-"""
