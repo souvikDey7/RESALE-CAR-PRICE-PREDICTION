@@ -37,7 +37,7 @@ print(r2_score(y_test,y_p))
 print(np.sqrt(metrics.mean_squared_error(y_test,y_p)))
 
 import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
+#from mpl_toolkits.mplot3d import Axes3D
 fig=plt.figure()
 ax=fig.add_subplot(projection='3d')
 ax.scatter(x[:,0],y,z,color="red",marker="o")
