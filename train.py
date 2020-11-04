@@ -17,7 +17,7 @@ x[:,4]=labelencoder.fit_transform(x[:,4])
 x[:,5]=labelencoder.fit_transform(x[:,5])
 x[:,6]=labelencoder.fit_transform(x[:,6])
 
-#x=sc.fit_transform(x)
+x=sc.fit_transform(x)
 
 one=OneHotEncoder(categories='auto')
 x=one.fit_transform(x).toarray()
@@ -51,4 +51,3 @@ ax.scatter(x[:,7],y,z,color="cyan",marker="o")
 ax.scatter(x[:,8],y,z,color="olive",marker="o")
 ax.scatter(x[:,9],y,z,color="lime",marker="o")
 ax.scatter(x[:,10],y,z,color="purple",marker="o")
-  
